@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#adb5bd,#8ecae6);
+}
+
+.dp{
+    border-radius: 50%;
+    width: 250px;
+    border: 7px outset #022b3a;
+}
+h1{
+    text-shadow: 0 -1px 0px white;
+}
+
+
+#age{
+    background: linear-gradient(#468faf, #89c2d9);
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+#dob{
+    background: linear-gradient(#468faf, #89c2d9);
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gi-img{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 8px;
+    background-image: url("gi-wrap.jpg");
+    background-size: cover;
+}
+
+.gift{
+    margin-top: 50px;
+}
+
+.gi-title{
+    margin-bottom: 10px;
+}
+.gi-hint{
+    margin-top: 0;
+}
+
+#happy:hover{
+    background-image: url("ha.gif");
+}
+
+#room:hover{
+    background-image: url("how2.gif");
+}
+
+#describe:hover{
+    background-image: url("chad.gif");
+    background-size: cover;
+}
+
+#badass:hover{
+    background-image: url("batsy.gif");
+}
+
+#cheers{
+    height: 200px;
+    background-size: 350px;
+}
+#cheers:hover{
+    background-image: url("cheers.gif");
+}
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color: white;
+}
